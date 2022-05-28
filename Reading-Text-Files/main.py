@@ -10,8 +10,6 @@ def read_file_content(filename):
     with open("./story.txt", "r") as f:
         contents = f.read()
         return contents
-filename = read_file_content("./story.txt")
-print(filename)
 
 
 def count_words():

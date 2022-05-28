@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(235, 232, 232);
+    font-size: xx-large;
+    
+}
+header {
+    background: rgb(61, 56, 56);
+    color: rgb(160, 145, 145);
+    text-align: center;
+}
+header p {
+    padding: 20px 0;
+    margin-bottom: 50px;
+    font-size: larger;
+
+}
+
+.radio-btns {
+    display: flex; 
+    flex-direction: column;
+    padding-top: 30px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer {
+    background: rgb(61, 56, 56);
+    bottom: 0; 
+    height: 10px;
+    position: absolute;
+    width: 100%;
+}
+
+form p {
+    font-size:47px;
+}
+.que-btns .nav-btn {
+    background-color:rgb(9, 119, 119);
+    border: none;
+    border-radius: 2px;
+    padding: 18px 15px;
+    color: rgb(201, 194, 194);
+    cursor: pointer;
+    margin: 50px 2px;
+    font-size: larger;
+}

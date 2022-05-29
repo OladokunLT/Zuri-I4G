@@ -6,12 +6,12 @@
 
 def find_anagram(word, anagram):
      # [assignment] Add your code here
-    word = word.lower()
-    anagram = anagram.lower() 
+    word = input("Enter 1st word: ").lower()
+    anagram = input("Enter 2nd word(anagram): ").lower() 
     if (sorted(word) == sorted(anagram)):
         return True
     else:
         return False
 
-print(find_anagram("cat", "cct"))
+print(find_anagram("word", "anagram"))
     

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="/index.css">
+    <style>
+        form{
+            display: grid;
+            grid-template-columns: auto;
+            gap: 10px;
+            width: 80vw;
+            margin: 5px auto;
+        }
+        input {
+            padding: 5px;
+            font-size: medium;
+            border: solid blueviolet 1px;
+            border-radius: 5px;
+        }
+        .submit-btn {
+            background-color: blueviolet;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="nav-wrapper">
+          <ul class="navlist">
+            <li><a href="/">Home</a></li>
+          </ul>
+        </nav>
+      </header>
+      <h1 style="text-align: center;">Login here</h1>
+    <form action="#" method="post">
+        <input type="email" placeholder="Enter Email Address" required/>
+        <input type="password" placeholder="Enter Password" required/>
+        <input type="submit" value="Sign In" class="submit-btn">
+    </form>
+</body>
+</html>

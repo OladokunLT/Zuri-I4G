@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        form{
+            display: grid;
+            grid-template-columns: auto;
+            gap: 10px;
+            width: 80vw;
+            margin: 5px auto;
+        }
+        input, textarea {
+            padding: 5px;
+            font-size: medium;
+            border: solid blueviolet 1px;
+            border-radius: 5px;
+        }
+        .submit-btn {
+            background-color: blueviolet;
+            color: white;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <header>
+        <nav class="nav-wrapper">
+          <ul class="navlist">
+            <li><a href="/">About</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+            <li><a href="/register.html">Register</a></li>
+            <li><a href="/login.html">Login</a></li>
+          </ul>
+        </nav>
+    </header>
+    <h1 style="text-align: center;">Contact me</h1>
+    <main>
+        <form action="mailto:lukmanoladokun86@gmail.com" method="post">
+            <input type="text" placeholder="Enter Fullname" required/>
+            <input type="email" placeholder="Enter email address" required/>
+            <textarea 
+                name="" 
+                id="" 
+                cols="30" 
+                rows="10" 
+                placeholder="Enter message"
+                required
+            >
+            </textarea>
+            <input type="submit" value="Send mail" class="submit-btn">
+        </form>
+    </main>
+     
+</body>
+</html>

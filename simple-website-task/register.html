@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="/index.css">
+    <style>
+        form{
+            display: grid;
+            grid-template-columns: auto;
+            gap: 10px;
+            width: 80vw;
+            margin: 5px auto;
+        }
+        input, textarea, select {
+            padding: 5px;
+            font-size: medium;
+            border: solid blueviolet 1px;
+            border-radius: 5px;
+        }
+        .submit-btn {
+            background-color: blueviolet;
+            color: white;
+            cursor: pointer;
+        }
+        select {
+           cursor: pointer; 
+        }
+
+    </style>
+</head>
+<body>
+    
+    <h1 style="text-align: center;">Register here</h1>
+    <main>
+        <header>
+            <nav class="nav-wrapper">
+              <ul class="navlist">
+                <li><a href="/">Home</a></li>
+              </ul>
+            </nav>
+        </header>
+        
+        <form action="#" method="post">
+            <input type="text" placeholder="Enter First Name" required/>
+            <input type="text" placeholder="Enter Last Name" required/>
+            <input type="number" placeholder="Enter Phone Number" required/>
+            <select name="gender" id="">
+                <option value="select gender">Select your gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <input type="text" placeholder="Enter Country Name" required/>
+            <input type="text" placeholder="Enter State/Province" required/>
+            <input type="email" placeholder="Enter Email Address" required/>
+            <input type="password" placeholder="Enter Password" required/>
+            <input type="password" placeholder="Confirm Password" required/>
+            
+            <input type="submit" value="Register" class="submit-btn">
+        </form>
+    </main>
+</body>
+</html>
